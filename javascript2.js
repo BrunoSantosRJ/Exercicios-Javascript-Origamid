@@ -302,8 +302,8 @@ addEventListener('scroll', function (){
   
 console.log(jaVisitei(20));
 
-//Sessão Funções fim addeventlistner conseguido após certa dificuldade na lógica,
-// no final era do modo mais fácil, as demais questoes sem grandes dificuldades
+//Sessão Funções fim. addeventlistner conseguido após certa dificuldade na lógica,
+//as demais questoes sem grandes dificuldades.
 
 
 //Sessão Objetos início
@@ -372,7 +372,7 @@ cachorro.late('homem');
 //console.log(cachorro.lateHomem);
 
 //Sessão Objetos fim. Concluído com sucesso sem muitas dificuldades com excessão da última parte
-//confusão com os operadores de comparação = e ===.
+//confusão com os operadores de atribuição = e comparação ===.
 
 
 
@@ -385,24 +385,13 @@ console.log(barco.valueOf());
 console.log(barco.charAt(3));
 console.log(barco.length);
 
-// nomeie 5 propriedades ou métodos de elementos do DOM
-var btn = document.querySelector('.btn');
-//paragrafro.addEventListener
-// fazer
-// fazer
-// fazer
-// fazer
-// fazer
-
-
-
 
 // busque na web um objeto (método) capaz de interagir com o clipboard, 
 // clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
 
 
 
-//sessão tudo é objeto fim REVER 'TUDO É OBJETO'...
+//sessão tudo é objeto fim.
 
 //sessão array e loops inicio
 
@@ -448,9 +437,4 @@ console.log(ultimaFruta);
 
 //sessão array e loops finalizada.
 
-//sessão atribuição e ternário início
-
-
-
-//sessão atribuição e ternário fim...
 
