@@ -389,12 +389,9 @@ console.log(barco.length);
 // busque na web um objeto (método) capaz de interagir com o clipboard, 
 // clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
 
-
-
 //sessão tudo é objeto fim.
 
 //sessão array e loops inicio
-
 
 
 // Crie uma array com os anos que o Brasil ganhou a copa
