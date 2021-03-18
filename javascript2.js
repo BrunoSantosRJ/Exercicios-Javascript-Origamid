@@ -375,7 +375,6 @@ cachorro.late('homem');
 //confusão com os operadores de atribuição = e comparação ===.
 
 
-
 //sessão tudo é objeto início
 
 
@@ -384,10 +383,6 @@ var barco = 'verde';
 console.log(barco.valueOf());
 console.log(barco.charAt(3));
 console.log(barco.length);
-
-
-// busque na web um objeto (método) capaz de interagir com o clipboard, 
-// clipboard é a parte do seu computador que lida com o CTRL + C e CTRL + V
 
 //sessão tudo é objeto fim.
 
@@ -434,4 +429,47 @@ console.log(ultimaFruta);
 
 //sessão array e loops finalizada.
 
+//sessão escopo inicio
+
+// Por qual motivo o código abaixo retorna com erros?
+{
+  var cor = 'preto';
+  const marca = 'Fiat';
+  let portas = 4;
+  console.log(cor, marca, portas);
+}
+//console.log(var, marca, portas);
+
+//R: Porque a linha de código para exibir a mensagem está no lado de fora do escopo e
+// estava escrito var ao invés de "cor".
+
+// Como corrigir o erro abaixo?
+function somarDois(x) {
+  const dois = 2;
+  return x + dois;
+}
+function dividirDois(x) {
+  //const dois = 2;
+  return x + dois;
+  //return x / dois;
+}
+console.log(somarDois(4));
+console.log(dividirDois(6));
+
+//R: Adicionando o valor da variavel a função e alterando o sinao de '+' para '/'
+// correções comentadas
+
+// O que fazer para total retornar 500?
+var numero = 50;
+
+for(var numero = 0; numero < 10 /*numero < 50*/; numero++) {
+  console.log(numero);
+}
+
+const total = 10 * numero;
+console.log(total);
+
+//R: Alterar o valor de 'numero < 10' para 'numero < 50'
+
+//sessão escopo fim.
 
