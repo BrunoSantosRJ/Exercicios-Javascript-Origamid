@@ -3,10 +3,6 @@ var a = "Exibir";
 console.log(a);
 
 
-/* SEQUÊNCIA DE EXERCÍCIOS DO CURSO ORIMGAMID, TODOS AS SESSÕES SERÃO SINALIZADAS POR MIM CASO SEJAM
-CONCLUÍDAS COM ÊXITO OU NÃO. PARA EXERCÍCIOS QUE EU NÃO CONSEGUIR SOLUCIONAR SOZINHO, SEJA COM PESQUISAS OU NÃO,
-SERÁ INCREMENTADO O CÓDIGO COM SOLUÇÃO DA ORIGAMID.*/
-
 
 //Sessão Variáveis início
 
@@ -33,7 +29,7 @@ var marca;
 var local;
 
 
-//Sessão Variáveis fim. Concluída com êxito.
+//Sessão Variáveis fim.
 
 
 //Sessão Tipos de Dados início
@@ -63,7 +59,7 @@ console.log(frase);
 console.log(typeof nome)
 
 
-//Sessão Tipos de Dados fim. Concluída com êxito.
+//Sessão Tipos de Dados fim.
 
 
 //Sessão  Números e Operadores início.
@@ -122,7 +118,7 @@ var pesoPorDois = numero / 2; //pare resolver esta tarefa substitui peso por num
 console.log(pesoPorDois + unidade);
 
 
-//Sessão Números e Operadores fim. Concluída com êxito.
+//Sessão Números e Operadores fim.
 
 
 // Sessão Boolean e condicionais início.
@@ -210,7 +206,7 @@ if(('Gato' === 'gato') || (5 > 2)) {
 //R: Cão. Porque leu o último verdadeiro.
 
 
-// Sessão Boolean e condicionais fim. Sessão finalizada com erro a ser analizado...
+// Sessão Boolean e condicionais fim.
 
 
 //Sessão Funções início
@@ -244,8 +240,6 @@ console.log(nomeMeu('Bruno ', 'Santos'));
 // Crie uma função que verifica se um número é par
 
 function parouImpar(numero){
-    
-    
 
     if ( numero % 2 === 0 || numero === 0){
         return 'Par';
@@ -255,7 +249,7 @@ function parouImpar(numero){
     }
     
 }
-// conseguir fazer com ajuda do google, deixo comentado isso?
+
 console.log(parouImpar(12));
 
 
@@ -302,8 +296,7 @@ addEventListener('scroll', function (){
   
 console.log(jaVisitei(20));
 
-//Sessão Funções fim. addeventlistner conseguido após certa dificuldade na lógica,
-//as demais questoes sem grandes dificuldades.
+//Sessão Funções fim.
 
 
 //Sessão Objetos início
@@ -371,8 +364,7 @@ cachorro.late('homem');
 //alert('teste');
 //console.log(cachorro.lateHomem);
 
-//Sessão Objetos fim. Concluído com sucesso sem muitas dificuldades com excessão da última parte
-//confusão com os operadores de atribuição = e comparação ===.
+//Sessão Objetos fim.
 
 
 //sessão tudo é objeto início
@@ -449,7 +441,7 @@ function somarDois(x) {
   return x + dois;
 }
 function dividirDois(x) {
-  //const dois = 2;
+  const dois = 2;
   return x + dois;
   //return x / dois;
 }
@@ -466,8 +458,8 @@ for(var numero = 0; numero < 10 /*numero < 50*/; numero++) {
   console.log(numero);
 }
 
-const total = 10 * numero;
-console.log(total);
+const total1 = 10 * numero;
+console.log(total1);
 
 //R: Alterar o valor de 'numero < 10' para 'numero < 50'
 

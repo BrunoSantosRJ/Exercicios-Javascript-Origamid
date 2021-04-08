@@ -1,6 +1,3 @@
-
-
-
     var idade = prompt('Digite a idade')
     
     
