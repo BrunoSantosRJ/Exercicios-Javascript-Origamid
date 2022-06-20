@@ -60,6 +60,7 @@ console.log(typeof nome)
 // var total = 10 + 5 * 2 / 2 + 20;
 var total = 10 + (5 * 2) / 2 + 20
 //35
+
 console.log(total)
 
 // Crie duas expressões que retornem NaN
